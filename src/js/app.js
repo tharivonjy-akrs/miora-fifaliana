@@ -398,7 +398,7 @@ function load() {
 
   setTimeout(() => {
     sectionMenu.style.opacity = "1";
-    sectionMenu.style.transform = "translateY(0)";
+    sectionMenu.style.transform = "translateY(10%)";
   }, 2550);
 }
 

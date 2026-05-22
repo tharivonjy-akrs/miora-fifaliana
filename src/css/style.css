@@ -144,8 +144,10 @@ body::after {
 
 .accueil-menu {
     width: 100%;
-    justify-self: center;
-    display: block;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: translateY(100%);
     opacity: 0;
     transition: transform 2s, opacity .5s;
@@ -191,8 +193,8 @@ body::after {
 }
 
 .card {
-    width: 200px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
     border: none;
     display: flex;
